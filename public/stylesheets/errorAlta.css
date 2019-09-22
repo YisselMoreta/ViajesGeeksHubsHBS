@@ -1,0 +1,71 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+}
+.menuCabecera{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    background-image: url('../images/nathan-anderson-316188-unsplash.jpg');
+}
+
+.contenedorLogo{
+    display:flex;
+    flex-direction:column;
+    margin:0;
+    padding:0;
+    align-items:center;
+}
+.contenedorLogo>p{
+    font-weight: bold;
+}
+.contenedorLogo>a>img{
+    width:8vw;
+    height:3vw;
+}
+
+#sectionLogin{
+    background-image: url('../images/aircraft-4264451_1280.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding:2vw 0;
+    height:76vh;
+}
+.contenedorFormulario{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    padding:2vw;
+    color:#000000;
+}
+.contenedorFormulario>h1{
+    padding:2vw 0;
+}
+.fondoBlanco{
+    background-color:rgba(255,255,255, 0.6);
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.enlaceLogin{
+    list-style: none;
+    color:#000000;
+    font-size: 2vw;
+    background-color:#ffff00;
+    text-decoration: none;
+    padding:1vw;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    background-color:#190f53;
+    text-align: center;
+    color: #ffffff;
+    height:3.5vh;
+}

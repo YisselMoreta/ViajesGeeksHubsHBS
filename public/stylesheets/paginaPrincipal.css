@@ -1,0 +1,545 @@
+#seccion3
+{
+    background-image: url("/travel_3.jpg");
+}
+#subseccion3
+{
+    width: 33%;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-image:url('../images/nathan-anderson-316188-unsplash.jpg');
+    width:100%;
+    height:100%;
+    background-size:cover;
+}
+.menuCabecera{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+}
+.menuCabecera>ul{
+    list-style: none;
+}
+.menuCabecera>ul>li{
+    float:left;
+    margin:1vw;
+    font-size:1vw;
+    font-weight: bold;
+    color:#ffffff;
+}
+.menuCabecera>ul>li>a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.contenedorLogo{
+    display:flex;
+    flex-direction:column;
+    margin:0;
+    padding:0;
+    align-items:center;
+}
+.contenedorLogo>p{
+    font-weight: bold;
+}
+.contenedorLogo>a>img{
+    width:8vw;
+    height:3vw;
+}
+.iconosRedes{
+    padding:1vh 0;
+}
+.iconosRedes>img{
+    width:2vw;
+    height:2vw;
+}
+#home{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding:10vw 0 20vw 0;
+    height: 40vw;
+}
+#home>div{
+    position: relative;
+    height:40vw;
+}
+#home>div>h1{
+    color:#ffffff;
+    font-weight: bold;
+    font-size:6vw;
+}
+#home>div>h3{
+    color:#ffffff;
+    font-weight: bold;
+    font-size:3vw;
+}
+.botonDestinos{
+    color:#190f53;
+    text-decoration: none;
+    font-weight: bold;
+    background-color:#ffff00;
+    font-size: 1.5vw;
+    padding:1.5vw;
+    font-style: oblique;
+}
+.contenedorBotonDestinos{
+    margin-top:5vw;
+}
+#sdestinos{
+    display:flex;
+    position: relative;
+    flex-direction:column;
+    align-items: center;
+}
+#primeraFilaDestinos{
+   display:flex;
+   position: relative;
+   flex-direction:row;
+}
+#primeraFilaDestinos>div>img{
+    width: 20vw;
+    height: 15vw;
+}
+#primeraFilaDestinos>div{
+    margin: 2vw;
+    position:relative;
+}
+#primeraFilaDestinos>div>h2{
+    text-align: center;
+    font-size: 2vw;
+}
+#segundaFilaDestinos{
+    display:flex;
+    position: relative;
+    flex-direction:row;
+ }
+ #segundaFilaDestinos>div>img{
+     width: 20vw;
+     height: 15vw;
+ }
+ #segundaFilaDestinos>div{
+     margin: 2vw;
+     position: relative;
+ }
+ #segundaFilaDestinos>div>h2{
+     text-align: center;
+     font-size: 2vw;
+ }
+ .descuento{
+     background-color:#190f53;
+     color:#ffffff;
+     padding:1vw;
+     position:absolute;
+     width:90%;
+     top:0;
+     font-size: 1vw;
+ }
+ .descuento{
+    background-color:#190f53;
+    color:#ffffff;
+    padding:1vw;
+    position:absolute;
+    width:90%;
+    top:0;
+}
+.precio{
+    background-color:#ffff00;
+    color:#190f53;
+    position:absolute;
+    width:30%;
+    height: 20%;
+    top:0;
+    right: 0;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+.precio>div{
+    font-weight: bold;
+    font-size: 2vh;
+}
+#nosotros{
+    background-image: url('../images/hiker-1082297_1280.jpg');
+    position: relative;
+    background-size: cover;
+    height:30vw;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+#nosotros>div{
+    position: relative;
+    width:25%;
+    height:90%;
+    background-color:#ffffff;
+    padding:1vw;
+    margin:4vw 8vw;
+}
+#nosotros>div>div>h1{
+    font-weight:bold;
+    color:#190f53;
+}
+#nosotros>div>div{
+    position: relative;
+}
+#nosotros>div>p{
+    text-align: justify;
+}
+.contenedorBotonDiscubrir{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.contenedorBotonDiscubrir>a{
+    background-color:#190f53;
+    color:#ffff00;
+    padding:1vw;
+    font-weight:bold;
+}
+#nosotros>div>div>h1:before{
+    content:'';
+    position: absolute;
+    background-color: #ffff00;
+    height: 3px;
+    width:60%;
+    bottom:-1vh;
+}
+#ubicacion{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:2vw;
+}
+#ubicacion>iframe{
+    position: relative;
+    width:50vw;
+}
+#ubicacion>div{
+    margin:1vw;
+}
+.formulario{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.edit{
+    margin:1vh;
+    height: 2.5vw;
+}
+textarea{
+    margin:1vh;
+}
+.botonEnviarMensaje{
+    background-color:#ffff00;
+    color:#190f53;
+    font-size:2vw;
+    font-weight: bold;
+    font-style: oblique;
+    padding:1vw;
+}
+.contenedorBotonEnviarMensaje{
+    margin:1vw 0;
+}
+footer{
+    background-color:#190f53;
+}
+.containerFooter{
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows:minmax(100px,auto);
+    background-color:#190f53;
+    color:#ffffff;
+}
+.footerAyuda{
+    grid-column:3/span 3;
+}
+
+.footerInformacion{
+    grid-column:6/span 3;
+}
+.footerSuscribirse{
+    grid-column:9/span 3;
+}
+.footerInformacion>ul{
+    list-style: none;
+    padding:0;
+}
+.footerSuscribirse>button{
+    margin-top:2vw;
+    padding:0.5vw;
+    font-size:1vw;
+    font-weight: bold;
+    background: #ffff00;
+    border:0;
+}
+.footerSuscribirse>input{
+    font-size: 1vw;
+}
+.derechos{
+    color:#ffffff;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/*Estilos Hector*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+#SContact {
+    background-color: #f0f0f0;
+}
+#map{
+    margin-top: 6em;
+    background-color: black;
+    height: 450px;
+    width: 400px;
+}
+form{
+    margin-top: 4em;
+    font-size: 0.95em;
+}
+
+.contenedorCarousel{
+    display: none;
+    position: relative;
+    width:40%;
+    height:30%;
+}
+.carouselImagen{
+    display:block;
+    display:relative;
+    width:100%;
+    height: 100%;
+}
+.item>img{
+    background-size:cover;
+}
+
+@media (max-width:1255px){
+    #nosotros>div>div>h1{
+        font-size: 2vw;
+    }
+    #nosotros>div>div>h1:before{
+        bottom:0;
+        width:25%
+    }
+    #nosotros>div>p{
+        font-size: 1vw;
+    }
+    #nosotros>div>div>a{
+        font-size: 2vw;
+    }
+    #ubicacion{
+        display: flex;
+        flex-direction: row;
+    }
+    iframe{
+        width:40vw;
+        height:50vh;
+    }
+    .contenedorInputs>input{
+        position: relative;
+        width:40vw;
+        font-size:2vw;
+    }
+    .contenedorTextarea>textarea{
+        width:40vw;
+        height: 8vh;
+        font-size:2vw;
+    }
+    .contenedorContacto{
+        width:40vw;
+        font-size:2vw;
+    }
+}
+@media (max-width:1050px){
+    .footerAyuda{
+        grid-column:2/span 3;
+    }
+}
+@media (max-width:900px){
+    #nosotros>div{
+        position: relative;
+        width: 50vw;
+        padding:1vw 3vw;
+    }
+    #nosotros>div>div>h1{
+        font-size: 2vw;
+    }
+    #nosotros>div>div>h1:before{
+        bottom:0;
+        width:25%
+    }
+    #nosotros>div>p{
+        font-size: 1vw;
+    }
+    #nosotros>div>div>a{
+        font-size: 2vw;
+    }
+    #ubicacion{
+        display: flex;
+        flex-direction: row;
+    }
+    iframe{
+        width:40vw;
+        height:50vh;
+    }
+    .contenedorInputs>input{
+        position: relative;
+        width:40vw;
+        font-size:2vw;
+    }
+    .contenedorTextarea>textarea{
+        width:40vw;
+        height: 8vh;
+        font-size:2vw;
+    }
+    .contenedorContacto{
+        width:40vw;
+        font-size:2vw;
+    }
+}
+@media (max-width:790px){
+    .footerAyuda{
+        grid-column:1/span 3;
+    }
+}
+
+@media(max-width:770px){
+    #primeraFilaDestinos{
+        display:flex;
+        position: relative;
+        flex-direction:row;
+        width:90%;
+     }
+     #segundaFilaDestinos{
+        display:flex;
+        position: relative;
+        flex-direction:row;
+        width:90%;
+     }
+     #segundaFilaDestinos>div>img{
+        width: 25vw;
+        height: 20vw;
+    }
+    #primeraFilaDestinos>div>img{
+        width: 25vw;
+        height: 20vw;
+    }
+    .descuento{
+        font-size: 1vh;
+    }
+}
+@media (max-width:700px){
+    iframe{
+        width:40vw;
+        height:40vh;
+    }
+}
+@media(max-width:500px){
+    .contenedorLogo>p{
+        font-size: 3vw;
+        margin:0;
+    }
+    #carouselMovil{
+        display:grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        margin:3vw 0;
+    }
+    .contenedorCarousel{
+        width:70%;
+        height:70%;
+        display:grid;
+        grid-column: 4/span 10;
+    }
+    #SeccionDestinos{
+        display:none;
+    }
+    .item>h2{
+        font-size:3vw;
+        padding:0;
+        margin:0;
+    }
+    .item{
+        text-align: center;
+    }
+    #nosotros>div{
+        position: relative;
+        width: 50vw;
+        padding:1vw 3vw;
+    }
+    #nosotros>div>div>h1{
+        font-size: 2vw;
+    }
+    #nosotros>div>p{
+        font-size: 1vw;
+    }
+    #nosotros>div>div>a{
+        font-size: 2vw;
+    }
+    #ubicacion{
+        display: flex;
+        flex-direction: column;
+    }
+    iframe{
+        width:95vw;
+        height:40vh;
+    }
+    .contenedorInputs>input{
+        position: relative;
+        width:90vw;
+        font-size:2vw;
+    }
+    .contenedorTextarea>textarea{
+        width:90vw;
+        height: 10vh;
+        font-size:2vw;
+    }
+    .footerAyuda{
+        grid-column:2/span 10;
+    }    
+    .footerAyuda>h3{
+        font-size:3vw;
+    }
+    .footerInformacion>h3{
+        font-size: 3vw;
+    }
+    .footerInformacion>ul>li{
+        font-size: 2vw;
+    }
+    .footerSuscribirse>h3{
+        font-size: 3vw;
+    }
+    .footerAyuda>p{
+        font-size:2vw;
+    }
+    .footerAyuda{
+        grid-column: 4/span 10;
+    }
+    .footerInformacion{
+        grid-column:4/span 10;
+    }
+    .footerSuscribirse{
+        grid-column:4/span 10;
+    }
+    .footerInformacion>ul{
+        list-style: none;
+        padding:0;
+    }
+}
